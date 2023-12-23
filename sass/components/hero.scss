@@ -1,0 +1,147 @@
+.hero {
+    padding-left: 36px;
+    padding-right: 36px;
+
+    @include breakpoint(tablet) {
+        padding: 31px 74px 30px 31px;
+        display: flex;
+    }
+
+    @include breakpoint(tablethorizontal) {
+        padding: 50px 100px 100px 100px;
+    }
+
+    @include breakpoint(desktop) {
+        padding-bottom: 200px;
+    }
+
+    &__content {
+
+        h1 {
+            font-size: 40px;
+            color: $black;
+            font-weight: 800;
+            margin-bottom: 26px;
+
+            @include breakpoint(tablethorizontal) {
+                font-size: 48px;
+                width: 457px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            color: $grey;
+            line-height: 26px;
+            margin-bottom: 24px;
+
+            @include breakpoint(tablethorizontal) {
+                width: 380px;
+            }
+        }
+
+        a.btn {
+            background-image: $gradient-pink-orange;
+        }
+    }
+
+    &__info {
+        background-image: url("img/img-girl.png"), $gradient-pink-orange;
+        width: 253px;
+        height: 253px;
+        border-radius: 158.5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        margin: 60px;
+        position: relative;
+
+        @include breakpoint(tablet) {
+            background-image: none;
+        }
+    }
+
+    .members {
+        position: absolute;
+        left: 80%;
+        bottom: 70%;
+        display: flex;
+        width: 38%;
+        height: 30%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: $white;
+        padding: 20px;
+        box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+
+        @include breakpoint(tablet) {
+            left: 100%;
+            bottom: 110%;
+            width: 68%;
+            height: 40%;
+        }
+
+        @include breakpoint(tablethorizontal) {
+            left: 85%;
+            bottom: 90%;
+            width: 50%;
+            height: 40%;
+        }
+
+        @include breakpoint(desktop) {
+            left: 150%;
+            bottom: 70%;
+        }
+    }
+
+
+    .course {
+        position: absolute;
+        left: -5%;
+        bottom: -5%;
+        display: flex;
+        width: 52%;
+        height: 32%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: $white;
+        padding: 20px;
+        box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+
+        @include breakpoint(tablet) {
+            left: -20%;
+            bottom: -5%;
+            width: 90%;
+            height: 32%;
+        }
+
+        @include breakpoint(tablethorizontal) {
+            left: -30%;
+            bottom: 8%;
+            width: 60%;
+            height: 32%;
+        }
+
+        @include breakpoint(desktop) {
+            left: 10%;
+            bottom: -20%;
+        }
+
+
+    }
+
+    .grey {
+        @include grey-type();
+    }
+
+    .black {
+        @include black-type();
+    }
+}

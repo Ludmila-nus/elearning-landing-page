@@ -1,0 +1,22 @@
+div.footer {
+    padding: 36px 16px 36px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $black;
+    align-content: center;
+    flex-wrap: wrap;
+    @include breakpoint(tablet) {
+        padding: 36px 76px 36px 46px;
+    }
+
+    .nav-principal {
+        ul {
+            @include reset-list();
+        }
+    }
+
+    .btn {
+        background-image: $gradient-pink-blue;
+    }
+}

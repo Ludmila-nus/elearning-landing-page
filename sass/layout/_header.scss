@@ -1,0 +1,27 @@
+div.header {
+    padding-top: 16px;
+    padding-bottom: 38px;
+    padding-left: 36px;
+    padding-right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-principal {
+        ul {
+            @include reset-list();
+        }
+    }
+
+    .btn {
+        background-color: $black;
+    }
+
+    @include breakpoint(tablet) {
+        padding: 31px 39px 70px 31px;
+    }
+
+    @include breakpoint(tablethorizontal){
+        padding: 50px 100px 100px 100px;
+    }
+}
