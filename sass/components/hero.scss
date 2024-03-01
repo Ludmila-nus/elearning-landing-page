@@ -27,6 +27,11 @@
                 font-size: 48px;
                 width: 457px;
             }
+
+            @include breakpoint(desktopxl){
+                font-size: 68px;
+                width: 500px;
+            }       
         }
 
         p {
@@ -39,6 +44,11 @@
             @include breakpoint(tablethorizontal) {
                 width: 380px;
             }
+
+            @include breakpoint(desktopxl){
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
         }
 
         a.btn {
@@ -47,7 +57,7 @@
     }
 
     &__info {
-        background-image: url(C:/Users/Usuario/Desktop/proyects/elearning-page/img/img-girl.png), $gradient-pink-orange;
+        background-image: url("img/img-girl.png"), $gradient-pink-orange;
         width: 253px;
         height: 253px;
         border-radius: 158.5px;
@@ -60,6 +70,12 @@
         @include breakpoint(tablet) {
             background-image: none;
         }
+
+        @include breakpoint(desktopxl) {
+            padding-bottom: 370px;
+            
+        }
+        
     }
 
     .members {
@@ -95,6 +111,11 @@
         @include breakpoint(desktop) {
             left: 150%;
             bottom: 70%;
+        }
+
+        @include breakpoint(desktopxl) {
+            left: 250%;
+            bottom: 40%;
         }
     }
 
@@ -132,6 +153,11 @@
         @include breakpoint(desktop) {
             left: 10%;
             bottom: -20%;
+        }
+
+        @include breakpoint(desktopxl) {
+             left: 70%;
+             bottom: -50%;
         }
 
 
