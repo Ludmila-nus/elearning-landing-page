@@ -6,9 +6,14 @@ This repository contains the source code for a practice eLearning landing page, 
 
 This project is a practice eLearning landing page designed to showcase a responsive and intuitively navigable interface. Please note that the links are not functional as this is a practice project.
 
+
 ## Screenshots
 
-_Insert screenshots of your page here_
+![Screenshot 1](css-practice/elearning-page/img/img1.png)
+
+![Screenshot 2](css-practice/elearning-page/img/img2.png)
+
+
 
 ## Features
 
