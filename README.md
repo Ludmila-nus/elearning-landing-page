@@ -9,9 +9,9 @@ This project is a practice eLearning landing page designed to showcase a respons
 
 ## Screenshots
 
-![Screenshot 1](css-practice/elearning-page/img/img1.png)
+![](./img/img1.png)
 
-![Screenshot 2](css-practice/elearning-page/img/img2.png)
+![](./img/img2.png)
 
 
 
