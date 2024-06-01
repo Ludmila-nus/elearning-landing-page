@@ -114,8 +114,9 @@
         }
 
         @include breakpoint(desktopxl) {
-            left: 250%;
-            bottom: 40%;
+            
+            left: 220%;
+            bottom: 50%;
         }
     }
 
@@ -151,8 +152,8 @@
         }
 
         @include breakpoint(desktop) {
-            left: 10%;
-            bottom: -20%;
+            left: 20%;
+            bottom: -70%;
         }
 
         @include breakpoint(desktopxl) {
