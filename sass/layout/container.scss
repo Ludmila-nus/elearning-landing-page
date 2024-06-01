@@ -1,7 +1,7 @@
 .container {
     
     @include breakpoint(tablet) {
-        background-image: url("../../img/img-girl-tablet.png");
+        background-image: url("../img/img-girl-tablet.png");
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: 110% 1%;      
